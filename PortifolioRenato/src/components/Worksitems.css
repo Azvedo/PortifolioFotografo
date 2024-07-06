@@ -1,0 +1,31 @@
+.last_works_post {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    & img {
+        width: 100%;
+    }
+
+    & .last_works_item_description {
+        position: absolute;
+        top: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        color: white;
+
+        & h3 {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}
+
+.last_works_post:hover {
+    & img {
+        filter: brightness(0.5);
+    }
+}

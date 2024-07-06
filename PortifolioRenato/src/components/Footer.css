@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 10% 35px 10%;
+    background-color: #000000;
+    border-top: 0.4px solid #121212;
+
+    & h2 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #F2EAEB;
+    }
+}
+
+.footer_icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

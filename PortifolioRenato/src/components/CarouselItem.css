@@ -1,0 +1,35 @@
+.carousel_item {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    inset: 0;
+}
+
+.carousel_item img {
+    width: 100%;
+}
+
+.carousel_item .carousel_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    & h3 {
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+    }
+
+    & h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+    }
+
+
+}
