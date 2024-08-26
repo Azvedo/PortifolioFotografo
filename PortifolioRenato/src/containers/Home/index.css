@@ -30,3 +30,19 @@ header{
     padding-left: 0.5%;
     gap: 2px;
 }
+
+
+@media (max-width: 768px) {
+    .main_content{
+        
+    }
+    .last_works{
+        & h2{
+            font-size: 20px;
+        }
+    }
+    .last_works_items{
+        display: flex;
+        flex-direction: column;
+    }
+}

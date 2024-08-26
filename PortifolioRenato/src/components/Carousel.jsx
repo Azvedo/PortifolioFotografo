@@ -1,10 +1,11 @@
-import React, { useEffect, useState, useRef } from 'react';
+/* eslint-disable react/prop-types */
+import { useEffect, useState, useRef } from 'react';
 import './Carousel.css';
 import { CarouselItem } from './CarouselItem';
 
 export function Carousel ({ items, interval = 9000, maxCount = 10 }){
   const [activeIndex, setActiveIndex] = useState(0);
-  const [counter, setCounter] = useState(0);
+  const [, setCounter] = useState(0);
   const intervalId = useRef(null);
 
   useEffect(() => {
@@ -39,5 +40,5 @@ export function Carousel ({ items, interval = 9000, maxCount = 10 }){
       ))}
     </div>
   );
-};
+}
 

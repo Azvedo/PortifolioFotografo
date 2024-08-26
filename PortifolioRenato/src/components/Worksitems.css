@@ -15,7 +15,7 @@
         flex-direction: column;
         align-items: center;
 
-        color: white;
+        color: rgb(255, 255, 255);
 
         & h3 {
             font-size: 18px;
@@ -27,5 +27,11 @@
 .last_works_post:hover {
     & img {
         filter: brightness(0.5);
+    }
+}
+
+@media (max-width: 768px) {
+    .last_works_post {
+        width: 100%;
     }
 }

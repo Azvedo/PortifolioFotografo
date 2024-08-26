@@ -42,3 +42,22 @@
     transition: 1s;
     transition-delay: 0.2s;
 }
+
+@media (max-width: 768px) {
+    .carousel_item .carousel_description {
+        top: 145px;
+        left: 50%;
+
+        & h3 {
+            font-size: 14px;
+            font-weight: 400;
+            color: white;
+        }
+    
+        & h1 {
+            font-size: 20px;
+            font-weight: 500;
+            color: white;
+        }
+    }
+}

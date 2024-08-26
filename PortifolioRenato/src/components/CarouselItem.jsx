@@ -1,5 +1,6 @@
 import './Carousel.css';
 
+// eslint-disable-next-line react/prop-types
 export function CarouselItem({source, type, title}) {
     return (
         <section className="carousel_item ">
